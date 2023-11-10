@@ -1,0 +1,10 @@
+Curto Eivers Ivo
+Rodriguez Roig Ciro
+Posada Vargas Cristian Damian
+
+a- El Main/Master queda con todos los archivos creados en la rama Curto y en la rama RodriguezRoig
+b- Si pude ver todos los cambios al realizar los pull de las distintas ramas y hacer el merge
+c- 1°: git checkout main para cambiarse a la rama main
+   2°: git merge Curto para activar el merge
+   3°: git push origin main para pushear el merge hacia main
+   
