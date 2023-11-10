@@ -22,3 +22,11 @@ f- -Tuve que abrir una maquina virtual para conseguir el ifconfig (utilicé vagr
  -git add .git commit -m "Agregar ifconfig de gamma"
  -git commit -m "Agregar ifconfig de gamma"
  -git push origin RodriguezRoig   
+ g- comandos para resolver punto 8:
+  1-git push origin Curto
+  2-git checkout main
+  3-git pull
+  4-git checout RodriguezRoig
+  5-git add .
+  6-git commit -m"Alfa cambios a beta.txt"
+  7-git push origin RodriguezRoig
