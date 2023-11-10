@@ -7,4 +7,18 @@ b- Si pude ver todos los cambios al realizar los pull de las distintas ramas y h
 c- 1°: git checkout main para cambiarse a la rama main
    2°: git merge Curto para activar el merge
    3°: git push origin main para pushear el merge hacia main
-   
+d- Sí, las ramas creadas por BETA y GAMMA quedan con datos actualizados
+e- En el segundo merge tuvimos que confirmar cambios desde la rama RodriguezRoig 
+al main ya que en main se habia creado el beta.txt por error en vez de en la otra
+ rama, entonces habia que borrarlo.
+f- -Tuve que abrir una maquina virtual para conseguir el ifconfig (utilicé vagrant up, vagrant ssh)
+ -Luego instalar con sudo apt-install tools para poder usar el comando
+ -Luego puse ifconfig y copie todo
+ -Luego desde la terminal del repo me movi a la rama main usando git checkout main
+ -git pull
+ -git checkout RodriguezRoig 
+ -git pull otra vez porque falto agregar algo
+ -Agregue mis datos y la ifconfig al archivo beta.txt
+ -git add .git commit -m "Agregar ifconfig de gamma"
+ -git commit -m "Agregar ifconfig de gamma"
+ -git push origin RodriguezRoig   
